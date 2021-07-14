@@ -10,7 +10,7 @@
 #
 # 1) Start robot server:
 #
-# $ bin/robot-server --reload-path src cusy.patches.cmfplone.testing.CUSY_PATCHES_CMFPLONE_ACCEPTANCE_TESTING
+# $ bin/robot-server --reload-path src cusy.patches.cmfplone.testing.ACCEPTANCE_TESTING
 #
 # 2) Run robot tests:
 #

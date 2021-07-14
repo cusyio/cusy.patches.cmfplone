@@ -2,12 +2,13 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-.. image:: https://travis-ci.org/collective/cusy.patches.cmfplone.svg?branch=master
-    :target: https://travis-ci.org/collective/cusy.patches.cmfplone
+.. image:: https://github.com/cusyio/cusy.patches.cmfplone/workflows/ci/badge.svg
+    :target: https://github.com/cusyio/cusy.patches.cmfplone/actions
+    :alt: CI Status
 
-.. image:: https://coveralls.io/repos/github/collective/cusy.patches.cmfplone/badge.svg?branch=master
-    :target: https://coveralls.io/github/collective/cusy.patches.cmfplone?branch=master
-    :alt: Coveralls
+.. image:: https://codecov.io/gh/cusyio/cusy.patches.cmfplone/branch/main/graph/badge.svg?token=6ZIOKJ1BVX
+    :target: https://codecov.io/gh/cusyio/cusy.patches.cmfplone
+    :alt: Coverage Status
 
 .. image:: https://img.shields.io/pypi/v/cusy.patches.cmfplone.svg
     :target: https://pypi.python.org/pypi/cusy.patches.cmfplone/
@@ -28,39 +29,19 @@
 cusy.patches.cmfplone
 =====================
 
-Tell me what your product does
+Patches and fixes for `Products.CMFPlone <https://github.com/plone/Products.CMFPlone/>`_ which are not yet released.
 
-Features
---------
+Patches
+-------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+- Plone Controlpanel should use expression context with Plone support:
+  no issue yet
 
 
 Installation
 ------------
 
-Install cusy.patches.cmfplone by adding it to your buildout::
+Install ``cusy.patches.cmfplone`` by adding it to your buildout::
 
     [buildout]
 
@@ -76,16 +57,14 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/cusy.patches.cmfplone/issues
-- Source Code: https://github.com/collective/cusy.patches.cmfplone
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/cusyio/cusy.patches.cmfplone/issues
+- Source Code: https://github.com/cusyio/cusy.patches.cmfplone
 
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let us know by adding a new ticket.
 
 
 License

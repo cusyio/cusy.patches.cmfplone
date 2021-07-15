@@ -1,7 +1,17 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
     i18n_domain="cusy.patches.cmfplone">
 
+  <include package="collective.monkeypatcher" />
 
+  <monkey:patch
+      class="Products.CMFPlone.PloneControlPanel.PloneControlPanel"
+      description="Use correct expression context."
+      handler=".controlpanel.customPatchHandler"
+      original="enumConfiglets"
+      preserveOriginal="true"
+      replacement=".controlpanel.enumConfiglets"
+      />
 
 </configure>

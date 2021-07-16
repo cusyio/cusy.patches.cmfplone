@@ -35,7 +35,7 @@ Patches
 -------
 
 - Plone Controlpanel should use expression context with Plone support:
-  no issue yet
+  https://github.com/plone/Products.CMFPlone/issues/3288
 
 
 Installation
